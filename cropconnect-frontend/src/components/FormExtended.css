@@ -1,0 +1,24 @@
+.form .checkbox {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.form .checkbox input {
+  width: auto;
+  margin-right: 0.5rem;
+  cursor: pointer;
+}
+
+.form .checkbox label {
+  margin: 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 600px) {
+  .form .checkbox {
+    flex-direction: row;
+  }
+}
